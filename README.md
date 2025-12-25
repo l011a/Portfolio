@@ -14,7 +14,7 @@ Detta är en personlig portfolio-webbplats skapad för att presentera min profil
 Metoder och Principer:
 
 HTML-struktur och Semantik:
-Jag använde semantisk HTML5 för att bygga en tydlig och logisk struktur. Genom att använda element som <header>, <nav>, <main>, <section>, <article> och <footer> skapade jag inte bara en bättre dokumentstruktur, utan också förbättrade åtkomligheten för skärmläsare. Varje sektion i portfolion har ett eget ID för intern navigering, vilket möjliggör smooth scrolling mellan sektionerna.
+Jag använde semantisk HTML5 för att bygga en tydlig och logisk struktur. Genom att använda element som <header>, <nav>, <main>, <section>,<article> och <footer> skapade jag inte bara en bättre dokumentstruktur, utan också förbättrade åtkomligheten för skärmläsare. Varje sektion i portfolion har ett eget ID för intern navigering, vilket möjliggör smooth scrolling mellan sektionerna.
 
 CSS-arkitektur och Designsystem:
 För styling implementerade jag ett system med CSS Custom Properties (variabler) i :root för att skapa ett enhetligt färgtema som enkelt kan anpassas. Alla mått angavs i REM-enheter baserat på en root font-size på 16px, vilket gör layouten skalbara och anpassningsbar för användares inställningar. Jag kombinerade CSS Grid och Flexbox för layouten, Grid för tvådimensionella layouter som hero-sektionen och projektgriden, och Flexbox för enkelriktade layouter som navbar och knappgrupper.
