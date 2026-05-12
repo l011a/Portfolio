@@ -150,19 +150,22 @@ body > main {
 
 /* CHIPS */ 
 .chips {
- margin-top: 1.3rem; 
+margin-top: 1.3rem;
+ display: flex;
+ flex-wrap: nowrap; 
+ gap: 0.5rem;
+ overflow-x: auto; 
 }
 
 .chip {
- display: inline-block; 
+ display: inline-block;
  padding: 0.5rem 1rem;
  border: 1px solid var(--border-light);
  border-radius: 1.3rem;
- margin-right: 0.5rem; 
- margin-bottom: 0.5rem;
  font-size: 0.9rem;
  background-color: var(--beige);
  transition: all 0.3s ease;
+ white-space: nowrap; 
 }
 
 .chip:hover {
@@ -203,6 +206,14 @@ section {
 .about-card:hover {
  transform: translateY(-5px);
 }
+
+.hero-image img {
+    width: 270px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .about-body h4 {
  margin-top: 0;
