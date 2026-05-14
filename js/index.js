@@ -1,6 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function(){
     emailjs.init({
-        publicKey: "PDMkefIozhKrPM18y"
+        publicKey: "PDMkefIozhKrPM18y" // initieras
     });
     const contactForm = document.getElementById('js-contact-form');
 
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
             submitBtn.disabled = true;
             submitBtn.textContent = 'Skickar...'; 
 
-            // skicka meddelande
+            // anropas när formuläret skickas
             emailjs.sendForm('service_wpm4rmo', 'template_24wufrc', this)
             .then(function() {
                 window.location.href = 'thanks.html';
